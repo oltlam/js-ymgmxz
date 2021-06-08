@@ -5,3 +5,7 @@ import './style.css';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
+function testing(){
+  document.getElementById("testb").innerText = "ar";
+  document.getElementById("texto").style.color= "blue";
+}
